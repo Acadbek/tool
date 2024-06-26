@@ -9,6 +9,12 @@ import Components from 'unplugin-vue-components/vite';
 import VueRouter from 'unplugin-vue-router/vite';
 // https://vitejs.dev/config/
 export default defineConfig({
+    optimizeDeps: {
+        include: [
+            '@vueuse/core',
+            '@vueuse/router',
+        ],
+    },
     css: {
         postcss: {
             plugins: [tailwind(), autoprefixer()],
