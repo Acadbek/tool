@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 3333 --open",
-    "build": "cross-env NODE_ENV=production vite build && esno scripts/postbuild.ts",
+    "build": "cross-env NODE_ENV=production vite build",
     "shot": "esno scripts/screenshot.ts",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit"
@@ -39,6 +39,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-cypress": "^3.3.0",
     "eslint-plugin-vue": "^9.23.0",
+    "esno": "^4.7.0",
     "jsdom": "^24.1.0",
     "npm-run-all2": "^6.2.0",
     "prettier": "^3.2.5",
