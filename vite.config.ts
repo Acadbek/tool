@@ -6,7 +6,6 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 import tailwind from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 import Components from 'unplugin-vue-components/vite'
-import Pages from 'vite-plugin-pages'
 import VueRouter from 'unplugin-vue-router/vite'
 
 // https://vitejs.dev/config/

@@ -28,3 +28,7 @@ export function useCopy({ source, text = 'Copied to the clipboard', createToast 
     }
   }
 }
+function useToast(): { toast: any; } {
+  throw new Error("Function not implemented.");
+}
+
